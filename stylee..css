@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .phone-image {
+    width: 250px;
+    border-radius: 15px;
+    margin-right: 20px;
+  }
+  
+  .phone-description {
+    font-size: 1.1rem;
+    max-width: 500px;
+  }
+  
+  .specs {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .specs h2 {
+    margin-bottom: 10px;
+  }
+  
+  .specs ul {
+    list-style: none;
+  }
+  
+  .specs li {
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+  
+  .purchase {
+    display: block;
+    width: 165px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #2196F3;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .purchase:hover {
+    background-color: rgb(42, 44, 197);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
